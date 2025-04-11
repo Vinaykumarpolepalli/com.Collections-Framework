@@ -1,6 +1,7 @@
 package com.Collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -23,16 +24,19 @@ public class CollectionList3RetianAll{
 		furites.add("Banana");
 		furites.add("Tomaota");
 		
-		veg.retainAll(furites);
 		
-
-		//System.out.println(veg.get(2));
-		System.out.println("*********veg***************");
-		
-		Iterator<String> itr = veg.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+		Collections.sort(furites);
+		System.out.println(furites);
+//		veg.retainAll(furites);
+//		
+//
+//		//System.out.println(veg.get(2));
+//		System.out.println("*********veg***************");
+//		
+//		Iterator<String> itr = veg.iterator();
+//		while(itr.hasNext()) {
+//			System.out.println(itr.next());
+//		}
 
 //		for(int i =0;i<veg.size();i++) {
 //			System.out.println(veg.get(i));

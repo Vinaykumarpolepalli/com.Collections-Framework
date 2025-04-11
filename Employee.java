@@ -11,6 +11,13 @@ public class Employee {
 		
 		
 		
+		@Override
+		public String toString() {
+			return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + ", age=" + age + ", phone=" + phone
+					+ "]";
+		}
+
+
 		public Employee(int eid, String ename, double esal, int age, long phone) {
 		super();
 		this.eid = eid;
