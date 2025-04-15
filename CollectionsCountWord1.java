@@ -23,7 +23,7 @@ public class CollectionsCountWord1 {
 
 		      System.out.println(m);
 		    
-		
+		sc.close();
 
 	}
 

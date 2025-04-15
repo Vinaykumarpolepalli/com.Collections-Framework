@@ -12,7 +12,7 @@ public class Collectiomap1 {
 		m.put(30, "Vinay");
 		m.put(18, "Virat");
 		m.put(7, "MSD");
-		//m.put(30, "kumar");//Updated
+		m.put(30, "kumar");//Updated
 		System.out.println(m.put(21, "Guru"));//Null
 		System.out.println(m.put(21, "sai"));//Guru
 		
@@ -32,11 +32,11 @@ public class Collectiomap1 {
 			System.out.println(entry.getKey()+":"+entry.getValue());
 		}
 		
-//		Map <String,String> m1 = new HashMap<>();
-//		m1.put("SRH","Hyderdad");
-//		System.out.println(m);
-//		System.out.println(m1);
-//		
+		Map <String,String> m1 = new HashMap<>();
+		m1.put("SRH","Hyderdad");
+		System.out.println(m);
+		System.out.println(m1);
+		
 		
 	}
 
